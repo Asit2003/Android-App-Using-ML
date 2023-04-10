@@ -1,8 +1,14 @@
 pluginManagement {
     repositories {
+<<<<<<< HEAD
         google()
         mavenCentral()
         gradlePluginPortal()
+=======
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+>>>>>>> parent of fa313f8 (Delete settings.gradle)
     }
 }
 dependencyResolutionManagement {
@@ -12,5 +18,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+<<<<<<< HEAD
 rootProject.name = "XSS"
+=======
+rootProject.name = "Neha"
+>>>>>>> parent of fa313f8 (Delete settings.gradle)
 include ':app'
