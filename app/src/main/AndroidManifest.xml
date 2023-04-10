@@ -12,6 +12,9 @@
         android:theme="@style/Theme.XSS"
         tools:targetApi="31">
         <activity
+            android:name=".ModelActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
@@ -28,8 +31,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
